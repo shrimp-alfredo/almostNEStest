@@ -52,10 +52,6 @@ class romLoader
             {
                 romLoadedCallback(thisInstance);
             }
-            else
-            {
-                alert("An error occurred loading rom");
-            }
         };
         fileReader.readAsArrayBuffer(inFile);   
 
@@ -157,3 +153,4 @@ class romLoader
         return 0;
     }
 }
+
